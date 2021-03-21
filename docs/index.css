@@ -1,0 +1,254 @@
+@media only screen and (max-width:1000px) {
+    body {
+        background-image: url(img/homebackground2.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: scroll
+    }
+    #contactpart {
+        margin-top: 280px;
+        height: 450px;
+        margin-bottom: 200px
+    }
+    current {
+        color: #00ced1;
+        font-weight: 700;
+        font-size: 20px
+    }
+    nav a {
+        color: #0740ff;
+        font-weight: 700;
+        font-size: 20px
+    }
+    nav a:hover {
+        color: #40e0d0
+    }
+    a {
+        color: #fff
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    body {
+        background-image: url(img/homebackground.jpg);
+        background-attachment: fixed;
+        overflow-y: scroll
+    }
+    #contactpart {
+        margin-top: 320px;
+        height: 300px
+    }
+    current {
+        color: #000
+    }
+    a {
+        color: #fff
+    }
+    nav a:hover {
+        color: #ec3667
+    }
+}
+
+body {
+    font-family: serif;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#imagebox .image {
+    margin: 0 auto;
+    display: inline
+}
+
+#imagebox .image img {
+    transition: box-shadow .3s;
+    height: 250px
+}
+
+#imagebox {
+    text-align: center;
+    display: block
+}
+
+#content {
+    margin: 0 20%;
+    margin-top: 80px
+}
+
+.slogan {
+    text-align: center;
+    color: #fff;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: static;
+    font-family: Varela, sans-serif;
+    z-index: 0
+}
+
+.short {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    position: static;
+    font-family: Varela, sans-serif;
+    z-index: 0
+}
+
+.topic {
+    text-align: center;
+    height: 500px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-style: italic
+}
+
+body {
+    text-decoration-line: none;
+    color: #fff
+}
+
+#bar {
+    width: 90%;
+    position: fixed;
+    top: 0
+}
+
+nav {
+    float: right
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 35px;
+    position: relative
+}
+
+nav a {
+    text-transform: uppercase;
+    content: " ";
+    display: block;
+    height: 5px;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    transition: 250ms
+}
+
+.header {
+    width: 100%;
+    text-align: center
+}
+
+current {
+    text-decoration-line: line-through
+}
+
+input[type=button] {
+    width: 400px;
+    padding: 18px 20px;
+    margin: 40px 0;
+    background: 0 0;
+    color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    transition: 250ms;
+    border-width: thin
+}
+
+input[type=button]:hover {
+    background-color: #fff;
+    color: #ec3667;
+    border: 0;
+    transition: .5s
+}
+
+#imagebox img {
+    box-shadow: 10px 10px 50px #000;
+    transition: all 1.5s ease-in;
+    transition-property: transform, opacity
+}
+
+#imagebox img:hover {
+    box-shadow: -30px -30px 100px #ffffbf;
+    opacity: 100;
+    transform: scale(.9) rotate(10deg);
+    transition: all 1s
+}
+
+a {
+    text-decoration-line: none
+}
+
+#text ul {
+    list-style: none
+}
+
+.right {
+    float: right
+}
+
+.left {
+    float: left
+}
+
+iframe {
+    border: 0;
+    width: 900px;
+    height: 600px;
+    overflow: scroll
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    align-content: center;
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-aa {
+    border-color: #00009b;
+    text-align: left;
+    vertical-align: top
+}
+
+.tg .tg-bb {
+    background-color: #c0c0c0;
+    border-color: #00009b;
+    text-align: left;
+    vertical-align: top
+}

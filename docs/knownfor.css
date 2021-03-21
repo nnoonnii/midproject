@@ -1,0 +1,28 @@
+body {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    /* color: #e42682; */
+}
+
+.header {
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: #8be1ff;
+}
+
+.title {
+    font-size: 27px;
+    color: #130723;
+    font-weight: 850;
+    line-height: 1px;
+
+}
+
+.text {
+    font-size: 18px;
+    color: #fdf7fe;
+}

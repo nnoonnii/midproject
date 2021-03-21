@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cake Club | Beverly Hills</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="script.js" type="text/xml" >
+    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <style>
+        .mySlides {display:none;}
+    </style>
+</head>
+<body onload="alert('Hello')">
+<div class="header">
+    <!--Natvigation Bar-->
+    <div id="bar">
+        <br>
+        <br>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <current>Home</current>
+                    </a>
+                </li>
+                <li><a href="index.html#contactpart">Contact</a></li>
+                &nbsp; &nbsp;
+                <li><a href="index.html#photos">Photos</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<br><br><br><br><br>
+<div class="slogan">
+    N O N I &nbsp;&nbsp;L A U
+</div>
+<br>
+<div class="short">
+    STUDENT , DIRECTOR , HACKER, GOD HIMSELF
+</div>
+<!--Picture-->
+<div id="content">
+    <script>
+        function play(){
+            var audio = document.getElementById("choir");
+            audio.play();
+        }
+    </script>
+    <div id="imagebox">
+        <div class="image"><img src="img/Neil-Breen-5-feature-films.jpg" value="PLAY"  onmouseover="play()"> </div>
+        <audio id="choir" src="audio/HeavensChoir.mp3"></audio>
+    </div>
+    <!--Trivia-->
+    <tp>
+        <div class="topic" >
+            Known For<br>
+            <div id="trivia">
+                <iframe src="knownfor.html" scrolling="yes"></iframe><br>
+                <a href="#"><input type="button" value=" &#9654; &nbsp READ MORE" onclick="alert('Everything else is a mystery.')"></a>
+            </div>
+        </div>
+    </tp>
+    <div class="topic" id="contactpart">
+        Contact me
+        <div id="text">
+            I don't usually drink ☕...
+            But I'm always up for a quick talk over coffee, or you can DM me on Twitter and Instagram, read my articles on Medium, or even see what I'm listening to on Spotify.
+            I'm also a big fan of projects for social good. So if you know any nonprofit organizations that need pro-bono design work, please get in contact or send an email to me.
+            <table class="tg">
+                <thead>
+                <tr>
+                    <th class="tg-bb">Phone Number</th>
+                    <th class="tg-bb">Email</th>
+                    <th class="tg-bb">Instagram</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="tg-aa">852-2361 5161</td>
+                    <td class="tg-aa">noni@mailbox.com</td>
+                    <td class="tg-aa">@nonimovies</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+    <!-- Slideshow -->
+    <div class="w3-container" id="photos">
+        <h2>Photos of me</h2>
+        <p>These are pictures of me and my artwork. </p>
+    </div>
+    <div class="w3-content w3-display-container">
+        <div class="w3-display-container mySlides">
+            <img src="img/slide2.jpg" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                Me and my tiny twin brother
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="img/slide0.png" style="width:100%">
+            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                my twin brother's gorgeous beard
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="img/slide1.png" style="width:100%">
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                Me in my own trailer
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="img/slide4.png" style="width:100%">
+            <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                Me leaning on my gigantic twin brother
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="img/slide5.png" style="width:100%">
+            <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                HACKS!!
+            </div>
+        </div>
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+    </script>
+</div>
+</body>
+</html>
